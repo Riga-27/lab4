@@ -91,9 +91,7 @@ Una vez que se han identificado los picos R, se calculan los intervalos R-R:
 
 - **Intervalos R-R**: Se obtienen restando las posiciones de los picos R adyacentes:
 
-  \[
-  RR_i = T_{R_i} - T_{R_{i-1}}
-  \]
+<img src="e1.jpeg" alt="Respuesta en frecuencia del filtro pasabanda" width="400"/>
 
 - **Conversión a milisegundos**: Los intervalos R-R se expresan en milisegundos (ms) para facilitar la interpretación.
 
