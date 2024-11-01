@@ -91,7 +91,7 @@ Una vez que se han identificado los picos R, se calculan los intervalos R-R:
 
 - **Intervalos R-R**: Se obtienen restando las posiciones de los picos R adyacentes:
 
-<img src="e1.jpeg" alt="Respuesta en frecuencia del filtro pasabanda" width="400"/>
+<img src="e1.png" alt="" width="300"/>
 
 - **Conversión a milisegundos**: Los intervalos R-R se expresan en milisegundos (ms) para facilitar la interpretación.
 
@@ -100,26 +100,17 @@ Una vez que se han identificado los picos R, se calculan los intervalos R-R:
 Los intervalos R-R se utilizan para calcular varios parámetros estadísticos que describen la HRV:
 
 - **Media de los intervalos R-R**:
-
-  \[
-  \text{Media RR} = \frac{1}{N} \sum_{i=1}^{N} RR_i
-  \]
-
+<img src="e2.png" alt="" width="300"/>
 - **Desviación estándar de los intervalos R-R**:
 
-  \[
-  \text{Desviación estándar RR} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (RR_i - \text{Media RR})^2}
-  \]
-
+ <img src="e3.png" alt="" width="400"/>
 ## Interpretación de Resultados
 
 Los parámetros calculados proporcionan información crítica sobre la salud cardiovascular:
 
 - **Frecuencia Cardíaca**: La media de los intervalos R-R puede ser utilizada para calcular la frecuencia cardíaca (FC) en latidos por minuto (lpm):
 
-  \[
-  \text{FC} = \frac{60000}{\text{Media RR}}
-  \]
+<img src="e4.png" alt="" width="300"/>
 
 - **Variabilidad**: Un aumento en la desviación estándar de los intervalos R-R sugiere una mayor capacidad de adaptación del sistema nervioso autónomo.
 
